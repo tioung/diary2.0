@@ -12,8 +12,16 @@ form.addEventListener('submit',(e)=>{
   diary.appendChild(div)
 
   //create entry button
+  const btn=document.createElement('button')
+  const date = new Date()
+  const month = date.toLocaleString('default', { month: 'long' });
+  const dateString=`${month} ${date.getDate()}, ${date.toLocaleTimeString()} `
+  btn.textContent=dateString
+  btn.classList.add('btn')
+  btn.addEventListener('click',()=>div.classList.toggle('hide'))
+  diary.appendChild(btn)
+
 
 
   form.textentry.value=''
 })
-console.log(textEntry);

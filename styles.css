@@ -9,6 +9,13 @@ body{
 h1, h2 h3, p{
   margin: 0;
 }
+h1{
+  font-family: 'Texturina', 'serif';
+  font-size: 2rem;
+  letter-spacing: 0.125rem;
+  text-align: center;
+  color:#555;
+}
 
 .hide{
   display: none;
@@ -20,13 +27,15 @@ h1, h2 h3, p{
   /* border:1px solid red; */
 }
 
-textarea, .btn-form, .diary{
+textarea, .btn, .diary{
   width:100%;
   font-size:1.2rem;
   font-weight: 700;
   padding: 1em;
   border:0;
   color:#FFF;
+  background-color: #DDD;
+  margin:2px 0;
   /* border-radius: 20px; */
 }
 textarea{
