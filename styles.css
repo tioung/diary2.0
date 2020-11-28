@@ -1,0 +1,45 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin:0;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 1rem;
+}
+h1, h2 h3, p{
+  margin: 0;
+}
+
+.hide{
+  display: none;
+}
+
+.container{
+  width:50%;
+  margin: 3em auto;
+  /* border:1px solid red; */
+}
+
+textarea, .btn-form, .diary{
+  width:100%;
+  font-size:1.2rem;
+  font-weight: 700;
+  padding: 1em;
+  border:0;
+  color:#FFF;
+  /* border-radius: 20px; */
+}
+textarea{
+  background-color: orange;
+}
+.btn-form{
+  background: navy;
+  margin: 2px 0 10px;
+}
+.btn-form:hover{
+  cursor: pointer;
+}
+.diary{
+  background: #EEE;
+  color:#222;
+}
